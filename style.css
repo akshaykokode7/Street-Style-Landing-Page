@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+    /* box-sizing: border-box; */
+}
+
+.container {
+    position: relative;
+    width: 85vw;
+    height: 100vh;
+    margin: auto;
+}
+
+/* Navbar Section */
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    height: 20vh;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 35vw;
+    font-size: 24px;
+}
+
+.list-item {
+    font-weight: 800; 
+}
+
+.list li:first-child {
+    border-bottom: 3px solid #000000;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+}
+
+.search-icon svg {
+    padding: 2px;
+}
+
+.nav-button {
+    background-color: #ffffff; 
+    border-radius: 15px;
+    border: 3px solid #000000;
+    padding: 1px 30px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Orbitron';
+   
+}
+
+ /* Hero Banner Section  */
+
+/* Star  */
+
+.star img {
+    position: absolute;
+    width: 4vw;
+    top: 26%;
+    right: 1%;
+}
+
+/* Globe */
+
+.globe img {
+    position: absolute;
+    width: 4vw;
+    left: 50%;
+    top: 17%;
+}
+
+/* Patterns */
+
+.square img{
+    position: absolute;
+    width: 20vw;
+    bottom: 3%;
+    left: 12%;
+} 
+
+[alt="person-hero-iamge"] {
+    position: absolute;
+    width: 26vw;
+    bottom: 70px;
+}
+
+/* Right Container */
+
+.hero-container-right {
+    position: absolute;
+    margin-left: 40%;
+    text-align: center;
+    top: 34%;
+}
+
+.hero-heading {
+    font-size: 60px;
+    white-space: nowrap;
+    font-family: 'Orbitron';
+}
+
+.hero-description {
+    font-size: 20px;
+    color: #535b60;
+    padding: 40px;
+    font-family: 'Pappins';
+} 
+
+.button-email {
+    font-family: 'Orbitron';
+    padding: 3px 20px;
+    background-color: #ffffff;
+    border: 3px solid #000000;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.button-join {
+    font-family: 'Orbitron';
+    padding: 3px 10px;
+    background-color: #000000;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.contact-heading {
+    font-family: 'Orbitron';
+    margin-top: 45px;
+    font-size: 20px;
+}
+
+.icons {
+   margin-top: 12px;
+}
+
+.icons span img {
+    padding: 8px;
+}
